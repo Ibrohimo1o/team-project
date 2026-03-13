@@ -8,7 +8,97 @@
 }
 
 /* 1 Header + Home(Begzod) */
-
+   .createXheader{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 100px;
+	padding: 20px;
+	background-color: #D2B6B2;
+	
+   }
+   .createXheader ul{
+	display: flex;
+	gap: 40px;
+	color: #424551;
+   }
+   .headerBtn{
+	border: none;
+	padding: 10px 20px;
+	border-radius: 10px;
+	color: white;
+	background-color: #FF3F3A;
+   }
+   .headerBox{
+	display: flex;
+	gap: 20px;
+   }
+   .headerLogin{
+	margin-top: 10px;
+   }
+   .spaceSection1{
+	background-color: #D2B6B2;
+	display: flex;
+	justify-content: center;
+	gap: 140px;
+	line-height: 66px;
+	height: 350px;
+	padding: 80px;
+   } 
+   .aboutXbtn1{
+	border: 1px solid #FF3F3A;
+	background-color: transparent;
+	padding: 10px 20px;
+	color: #F75E05;
+	border-radius: 10px;
+	font-size: 17px;
+   }
+   .aboutXbtn2{
+	padding: 10px;
+	border-radius: 10px;
+	background-color: #FF3F3A;
+	color: white;
+	border: none;
+	font-size: 17px;
+   }
+   .enjoyX{
+	width: 400px;
+	font-size: 50px;
+   }
+   .hover{
+	display: flex;
+   }
+   .hoverImg{
+	width: 70px;
+   }
+   .hoverText{
+	position: relative;
+	left: 10px;
+	top: 5px;
+   }
+   .boxB1{
+	position: relative;
+	top: 20px;
+	right: 50px;
+   }
+   .boxB2{
+	align-items: flex-end;
+	justify-content: center;
+	display: flex;
+	gap: 100px;
+   }
+   .boxB3{
+	display: flex;
+   }
+   .student{
+	position: relative;
+	font-size: 18px;
+	color: gray;
+	left: 20px;
+   }
+   .number{
+	font-size: 40px;
+   }
 /* 2 CreateX(Mirzohid) */
 
 /* 3 Courses(Shamsiddin) */

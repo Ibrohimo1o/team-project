@@ -28,3 +28,114 @@
 /* 10 School(Muhammadolim) */
 
 /* 11 Footer(Muhammad) */
+.footer{
+	width: 100%;
+	height: 396px;
+	background-color: #1E212C;
+	
+
+}
+.bigfooter{
+	display: flex;
+	justify-content: center;
+    padding-top: 80px;
+	gap: 80px;
+}
+.fottext{
+	width: 279px;
+	height: 90px;
+	color: gray;
+padding-top: 24px;
+}
+.footericon{
+	color: gray;
+	font-size: 130%;
+	display: flex;
+	flex-direction: row;
+	gap: 15px;
+	margin-top: 100px;
+}
+.fa-youtube{
+	color: white;
+}
+.footimg{
+	margin-left: 95px;
+	
+}
+.fotnav h4{
+	width: 79px;
+	height: 24px;
+  color: white;
+  padding-bottom: 12px;
+}
+.fotnav ul{
+	color: gray;
+	line-height: 160%;
+
+}
+.footbox2{
+	width: 286px;
+	height: 126px;
+
+}
+.footbox2 h4{
+	color: white;
+	padding-bottom: 24px;
+}
+.x {
+	color: #e1d2d2;
+	font-size: 10px;
+	margin-top: 12px;
+	line-height: 150%;
+}
+.footerinput{
+	width: 286px;
+	height: 36px;
+    color: gray;
+	background-color: #2f3343 ;
+	border-radius: 6px;
+		
+	border: none;
+	padding: 9px 12px;
+	
+}
+
+.p{
+	color: gray;
+padding: 9px 12px;
+}
+
+.footbox h4{
+
+
+  color: white;
+  padding-bottom: 12px;
+}
+.fotimg{
+	display: flex;
+	color: gray;
+	gap: 5px;
+	padding-bottom: 10px;
+}
+.fa-heart{
+	color: red;
+}
+.footer2{
+	background-color: #2f3343;
+	width: 100%;
+	height: 58px;
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 870px;
+
+}
+.fottitle2{
+	color: gray;
+	font-size: 14px;
+}
+.fottitle{
+	color: white;
+font-size: 12px;
+}

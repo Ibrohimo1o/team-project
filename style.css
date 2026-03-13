@@ -1,10 +1,10 @@
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	font-family: sans-serif;
-	list-style: none;
-	text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  list-style: none;
+  text-decoration: none;
 }
 
 /* 1 Header + Home(Begzod) */
@@ -21,7 +21,234 @@
 
 /* 7 Team(Maqsudali) */
 
+
+
+
+
 /* 8 Testimonials(Muslima) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.testimonials {
+  background: #f5f7fa;
+  padding: 100px 0;
+}
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+
+.subtitle {
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: #777;
+  margin-bottom: 50px;
+}
+
+.testimonials h2 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.testimonial-card {
+  background: #fff;
+  padding: 50px;
+  border-radius: 8px;
+  max-width: 850px;
+  margin: 0 auto;
+  position: relative;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.quote {
+  font-size: 40px;
+  color: #ff4d4f;
+  margin-bottom: 15px;
+}
+
+.text {
+  color: #666;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.user img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.user h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.user span {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 15px;
+}
+
+.next {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 35px;
+  height: 35px;
+  border: none;
+  background: red;
+  color: black;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+
+
+
+@media (max-width: 992px) {
+
+  .container {
+    width: 90%;
+  }
+
+  .testimonials {
+    padding: 80px 0;
+  }
+
+  .testimonials h2 {
+    font-size: 28px;
+  }
+
+  .testimonial-card {
+    padding: 40px;
+  }
+
+  .text {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+}
+
+
+
+  .subtitle {
+    text-align: center;
+    font-size: 13px;
+  }
+@media (max-width: 600px) {
+
+  .testimonials h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+
+  .testimonial-card {
+    padding: 25px;
+  }
+
+  .quote {
+    font-size: 32px;
+  }
+
+  .text {
+    font-size: 14px;
+  }
+
+  .user {
+    gap: 12px;
+  }
+
+
+  .next {
+    right: 15px;
+    bottom: 15px;
+  }
+
+}
+  .user img {
+    width: 50px;
+    height: 50px;
+  }
+
+
+
+
+@media (max-width: 350px) {
+
+  .testimonials {
+    padding: 60px 0;
+  }
+
+  .testimonials h2 {
+    font-size: 20px;
+  }
+
+  .quote {
+    font-size: 26px;
+  }
+
+  .text {
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  .user img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .user h4 {
+    font-size: 14px;
+  }
+
+  .user span {
+    font-size: 12px;
+  }
+
+  .next {
+    width: 28px;
+    height: 28px;
+    font-size: 14px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* 9 Posts(Asadbek) */
 

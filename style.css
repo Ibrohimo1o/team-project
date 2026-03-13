@@ -24,7 +24,67 @@
 /* 8 Testimonials(Muslima) */
 
 /* 9 Posts(Asadbek) */
+.postssection{
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	height: 700px;
+}
+.postsdiv{
+	display: flex;
+	justify-content: space-between;
+    margin-top: 40px;
+}
+.postsbutton{
+	width: 150px;
+	height: 40px;
+	color: white;
+	background-color:#F75E05;
+    border: none;
+}
+.postshome{
+	width: 500px;
+	height: 400px;
+	background-color: white;
+	display: flex;
+	justify-content: space-around;
+	gap: 30px;
+}
+.postsh2{
+	padding: 20px 0;
+	margin-top: 10px;
+}
+.postsp{
+	font-size: 0.7rem;
+	color: cadetblue;
+}
+.postsdiv1{
+	display: flex;
 
+	gap: 20px;
+	margin-top: 10px;
+}
+.postssh2{
+	font-size: 1.5rem;
+	margin-top: 10px;
+	width: 500px;
+	margin-top: 10px;
+}
+.postsp{
+ margin-top: 10px;
+ margin-bottom: 10px;
+}
+.postsdiv3{
+	display: flex;
+	gap: 10px;
+	text-align: center;
+}
+.postsp3{
+	color: cadetblue;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.postsimg{
+	width: 500px;
+}
 /* 10 School(Muhammadolim) */
 
 /* 11 Footer(Muhammad) */

@@ -18,7 +18,27 @@
 /* 5 Events(Obidxon) */
 
 /* 6 Certificate(Azamat) */
-
+.mainh2 {
+	font-size: 49px;
+	margin-top: 5px;
+}
+.mainp1 {
+	margin-top: 26px;
+	size: 16px;
+}
+.bbbbbb {
+	/* width: 500px; */
+   padding-left: 130px;
+   
+}
+.ddddddd {
+	height: 500px;
+	display: flex;
+	justify-content: center;
+}
+.tttt {
+	padding-top :40px ;
+}
 /* 7 Team(Maqsudali) */
 
 /* 8 Testimonials(Muslima) */
